@@ -1,0 +1,97 @@
+.nav{
+    background-color: transparent;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.nav ul{
+    display: flex; 
+    list-style: none; 
+    align-items: center; 
+    gap: 1rem; 
+    position: absolute; 
+    right:0px; 
+    top: 10px;
+}
+
+.nav a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+}
+
+.head{
+    margin-top: 50px;
+}
+
+@keyframes animateWords{
+    0%{
+        transform: translateY(0%);
+    }
+
+    25%{
+        transform: translateY(-100%);
+    }
+
+    50%{
+        transform: translateY(-200%);
+    }
+
+    75%{
+        transform: translateY(-300%);
+    }
+
+    100%{
+        transform: translateY(-400%);
+    }
+}
+
+#job{
+    font-family:bely-display,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,
+                   Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,sans-serif; 
+    font-size: 40px; 
+    margin-top: -15px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.profile{
+    display: flex; 
+    position: relative; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#about{
+    margin-top: -20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.ido{
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+    padding: 30px 150px;
+
+}
+
+.myport{
+    /* z-index: 2; bottom: 100px; position: absolute;  background-color: #8db8e5; padding: 10px 15px; text-decoration: none; color: white; border-radius: 5px; */
+    display: flex; 
+    position: absolute; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #8db8e5;
+    padding: 10px 15px;
+    text-decoration: none; 
+    color: white
+
+}
